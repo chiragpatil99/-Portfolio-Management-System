@@ -1,0 +1,27 @@
+/* Style for the 'Rows per page' dropdown */
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .rdt_Pagination select {
+  background-color: #1E1E1E !important; /* Dark background */
+  color: #FFFFFF !important;            /* White text */
+  border: 1px solid #333333;            /* Dark border */
+}
+
+/* Style the dropdown arrow */
+.dataTables_wrapper .dataTables_length select option,
+.dataTables_wrapper .rdt_Pagination select option {
+  background-color: #1E1E1E !important; /* Dark background for options */
+  color: #FFFFFF !important;            /* White text */
+}
+
+/* Custom CSS to wrap header text */
+.dataTable th {
+    white-space: normal !important; /* Allow wrapping */
+    word-wrap: break-word;          /* Break long words */
+    text-align: center;             
+  }
+  
+  /* Optional: Adjust header cell padding if needed */
+  .dataTable th,
+  .dataTable td {
+    padding: 10px; 
+  }

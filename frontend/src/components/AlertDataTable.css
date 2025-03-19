@@ -1,0 +1,8 @@
+.data-table .rdt_TableHead,
+.data-table .rdt_TableRow {
+  text-align: center !important; /* Center text for header and body cells */
+}
+
+.data-table .rdt_TableCell {
+  text-align: center !important; /* Center text for individual cells */
+}
